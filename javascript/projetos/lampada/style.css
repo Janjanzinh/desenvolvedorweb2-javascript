@@ -1,0 +1,11 @@
+header,
+main {
+    display: flex;
+    flex-direction: column #101891;
+    align-items: center;
+}
+
+button {
+    width: 80px;
+    flex-direction: column #2e05c4;
+}

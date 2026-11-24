@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura condicional ternario</title>
+</head>
+<body>
+    <h1>Estrutura condicional ternario</h1>
+    <p id="teste"></p>
+
+    <script>
+
+        var media = 6;
+        var resultado = '';
+        //condicional ternário
+        var resultado = (media >= 7) ? "aprovado(a)" :
+            (media >= 6) ? "Recuperação":
+                 "Reprovado(a)";
+
+        //Mostrar o resultado
+        document.getElementById('teste').innerHTML = resultado;
+
+    </script>
+</body>
+
+</html>

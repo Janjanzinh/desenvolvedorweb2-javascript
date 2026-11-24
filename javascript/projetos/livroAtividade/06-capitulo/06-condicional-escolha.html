@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura condicional ternario</title>
+</head>
+
+<body>
+    <h1>Estrutura condicional ternario</h1>
+    <p id="teste"></p>
+
+    <script>
+        var dia = 0;
+        var resposta = "";
+
+        // solicitando um número para o usuário
+        dia = parseInt(prompt('digite um número de 1 a 7', ""));
+
+        switch (dia) {
+            case 1:
+                resposta = 'domingo';
+                break;
+            case 2:
+                resposta = 'segunda';
+                break;
+            case 3:
+                resposta = 'terça';
+                break;
+            case 4:
+                resposta = 'quarta';
+                break;
+            case 5:
+                resposta = 'quinta';
+                break;
+            case 6:
+                resposta = 'sexta';
+                break;
+            case 7:
+                resposta = 'sabado';
+                break;
+            default:
+                resposta = 'dia da semana não existe!!! FAZ O L';
+
+
+                //Mostrando resultado
+                document.getElementById('teste').innerHTML = resposta;
+        }
+
+    </script>
+
+</body>
+
+</html>
